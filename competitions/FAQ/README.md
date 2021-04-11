@@ -79,6 +79,43 @@ fn main() {
 
 </details>
 
+## Q3 `101` などの文字列型の値から1文字ごとに char を取り出すにはどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+`String` が提供する `cahrs()` ではイテレータ `Iterator<Item = char>` を返す。
+
+後はイテレータに対して繰り返し処理を実装すればいい。
+
+複数行の場合は以下になる
+
+```rust
+input! {
+    s: String
+};
+let mut result: i32 = 0;
+// イテレータから各要素を取得して繰り返す
+for ichar in s.chars() {
+    if ichar == '1' {
+        result += 1;
+    }
+}
+```
+
+クロージャを使用する場合は以下になる。
+
+```rust
+    input! {
+        s: String
+    };
+    let result = s.chars()                  // イテレータを取得
+                  .filter(|&c| c == '1')    // 各要素を取り出してクロージャを適用
+                  .count();                 // 要素数を数える
+```
+
+</details>
+
 ## QN
 
 <details>
