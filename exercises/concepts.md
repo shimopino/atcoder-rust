@@ -209,6 +209,27 @@ let last = a[a.len() - 1];
 
 </details>
 
+## Q9
+
+プログラムのエントリポインタ `main` から `Hello World` を出力し、この関数の中から別途に定義している `Another Function` という文字列を出力する `another_function` 関数を起動してみましょう。
+
+<details>
+<summary>回答例</summary>
+
+```rust
+fn main() {
+    println!("Hello World");
+
+    another_function();
+}
+
+fn another_function() {
+    println!("Another Function");
+}
+```
+
+</details>
+
 ## QN
 
 <details>

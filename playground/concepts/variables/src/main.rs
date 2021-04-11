@@ -18,4 +18,10 @@ fn main() {
     let last = array[array.len() - 1];
 
     println!("first: {}, last: {}", first, last);
+
+    another_function();
+}
+
+fn another_function() {
+    println!("Another Function");
 }
