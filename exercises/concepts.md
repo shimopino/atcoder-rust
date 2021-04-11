@@ -325,8 +325,37 @@ let number = if condition {
 
 </details>
 
-## QN
+## Q14
+
+Rustでは以下のようにループを使用して配列にアクセスすることができる。
+
+```rust
+let a = [10, 20, 30, 40, 50];
+let mut index = 0;
+
+while index < 5 {
+    // 値は{}です
+    println!("the value is: {}", a[index]);
+
+    index = index + 1;
+}
+```
+
+しかしこの方法は配列の要素数を明示的に指定する必要があるためバグが発生する可能性が存在する。
+
+では配列のメソッドを使用して、配列の各要素にアクセスしてみましょう。
 
 <details>
 <summary>回答例</summary>
+
+配列の `iter()` を使用する。
+
+```rust
+let a = [1, 2, 3, 4, 5];
+
+for element in a.iter() {
+    println!("The value is {}", element);
+}
+```
+
 </details>
