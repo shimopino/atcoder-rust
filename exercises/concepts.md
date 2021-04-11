@@ -305,6 +305,26 @@ fn plus_one(x: i32) -> i32 {
 
 </details>
 
+## Q13
+
+Rustにて、数値型の変数 `number` に対して、ある条件が真の場合は `5` を代入し、それ以外の場合には `6` を代入するにはどうすればいいでしょうか。
+
+イメージとしては三項演算子に近い。
+
+<details>
+<summary>回答例</summary>
+
+```rust
+let conditioon = true;
+let number = if condition {
+    5
+} else {
+    6
+};
+```
+
+</details>
+
 ## QN
 
 <details>
