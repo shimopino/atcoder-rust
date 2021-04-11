@@ -134,6 +134,29 @@ fn main() {
 
 </details>
 
+## Q6
+
+Rustで `cahr` をどのように定義すればいいでしょうか
+
+<details>
+<summary>回答例</summary>
+
+Rustでは **シングルクォート** を使用することで `char` を定義することができる。
+
+（なお文字列はダブルクォートを使用する）
+
+```rust
+fn main() {
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';    //ハート目の猫
+}
+```
+
+なおユニコードのスカラー値をあらわしている。
+
+</details>
+
 ## QN
 
 <details>
