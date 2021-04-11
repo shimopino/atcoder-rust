@@ -265,6 +265,26 @@ let result = {
 
 </details>
 
+## Q10 10進数表記されている数値の、各桁の合計値を計算するにはどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+変数に `123` が格納されており、各桁の合計値である `6` を計算することを考える。 
+
+```rust
+let sum = i.to_string()                 // まずは数値型を文字列型に変換する
+            .chars()                    // 各桁を取得するために char のイテレータを作成
+            .map(|c| {                  // char の各要素にアクセス
+                c.to_digit(10).unwrap() // 10進数表記に変換する。その際にOptionは取り外す
+            })
+            .sum();                     // Integer の要素の合計値を計算する
+```
+
+注意点は `to_digit` で変換する場合には `Option<T>` が返されるため `unwrap()` で剝がしておく必要がある点である。
+
+</details>
+
 ## QN
 
 <details>
