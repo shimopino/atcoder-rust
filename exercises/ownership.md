@@ -1,7 +1,18 @@
 # 所有権
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Q1](#q1)
+- [Q2](#q2)
+- [Q3](#q3)
+- [Q4](#q4)
+- [QN](#qn)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Q1
 
