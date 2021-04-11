@@ -117,6 +117,148 @@ for ichar in s.chars() {
 
 </details>
 
+## Q4 整数a,bが与えられた際に倍数判定を行う式は何でしょうか
+
+<details>
+<summary>回答</summary>
+
+```math
+(a + b - 1) / b
+```
+
+</details>
+
+## Q5 u32の要素をもつイテレータに対して filter とfilter_map を適用する場合の違いは何か
+
+<details>
+<summary>回答</summary>
+
+`filter` では引数で与えられた関数が `true` になる要素のみを返すような、新たなイテレータを返す。
+
+注目する点は、あくまでも各要素を不変な参照でアクセスしているため、イテレータの中身は一切 **変更せず** にただ単に要素の選択にのみ使用できる点である。
+
+```rust
+filter(): Iterator<T> -> (&T -> bool) -> Iterator<T>
+```
+
+`filter_map` では引数で各要素を受け取り、`Option` を返す関数を適用することで、`Some` だったものだけを新たな要素のイテレータとして返す。
+
+これは各要素の値を受け取って、要素自体に変更を加える場合に使用できる。
+
+```rust
+filter_map(): Iterator<T> -> (T -> Option<U>) -> Iterator<U>
+```
+
+例えば [公式ドキュメント](https://doc.rust-lang.org/1.41.0/std/iter/trait.Iterator.html#examples-11) から以下のような使用例がある。
+
+```rust
+let a = ["1", "lol", "3", "NaN", "5"];
+
+let mut iter = a.iter().filter_map(|s| s.parse().ok());
+
+assert_eq!(iter.next(), Some(1));
+assert_eq!(iter.next(), Some(3));
+assert_eq!(iter.next(), Some(5));
+assert_eq!(iter.next(), None);
+```
+
+</details>
+
+## Q6 イテレータに対して collect を適用すると何が返されるのか
+
+<details>
+<summary>回答</summary>
+
+`collect` では、イテレータの全要素を取り出して、新たなコレクションを作成できる。
+
+```rust
+collect(): Iterator<T> -> Collection of T
+```
+
+[公式ドキュメント](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.collect) にある通り、ほかのメソッドを使用して作成した新たなイテレータからコレクションを作成することができる。
+
+```rust
+let a = [1, 2, 3];
+
+let doubled: Vec<i32> = a.iter()            // コレクションからイテレータを作成
+                         .map(|&x| x * 2)   // 各要素を2倍する
+                         .collect();        // イテレータからコレクションを作成
+
+assert_eq!(vec![2, 4, 6], doubled);
+```
+
+</details>
+
+## Q7 イテレータに対して map を適用すると何が返されるのか
+
+<details>
+<summary>回答</summary>
+
+`map` では各要素に対して何かしら変更を加えた新たなイテレータを返す。
+
+```rust
+map(): Iterator<T> -> (T -> U) -> Iterator<U>
+```
+
+以下の [公式ドキュメント](https://doc.rust-lang.org/1.41.0/std/iter/trait.Iterator.html#method.map) の例がわかりやすい。
+
+```rust
+let a = [1, 2, 3];
+
+let mut iter = a.iter().map(|x| 2 * x);
+
+assert_eq!(iter.next(), Some(2));
+assert_eq!(iter.next(), Some(4));
+assert_eq!(iter.next(), Some(6));
+assert_eq!(iter.next(), None);
+```
+
+もしも `map` した要素に対して条件をもとに要素をフィルタリングしたい場合は `filter_map` を使用する。
+
+</details>
+
+## Q8 イテレータの要素にアクセスする場合の `|x|` と `|&x|` の違いは何か
+
+<details>
+<summary>回答</summary>
+
+
+</details>
+
+## Q9 u32 の要素を持つコレクションから、2進数表記の場合の末尾の0を数え上げてその最小値を求める場合にどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+整数に対してビット演算を行う関数が標準で提供されている。
+
+```rust
+n.count_ones();     // ビット表現したときに現れる1の数を求める
+n.count_zeros();    // ビットで表現したときに現れる0の数を求める
+n.leading_zeros();  // ビットで表現したときの頭の0の数を求める
+n.trailing_zeros(); // ビットで表現したときの末尾の0の数を求める
+n.swap_bytes();     // byte順序を逆にする
+n.rotate_right(4);  // ラップする右シフト 
+n.rotate_left(4);   // ラップする左シフト
+```
+
+今回ではこの中から `trailing_zeros` を使用すればいい。
+
+配列から2進数表記の末尾が0の数の最小値は以下のように求めることが可能である。
+
+```rust
+let result = {
+    a.iter()                        // イテレータの作成
+     .map(|&x| x.trailing_zeros())  // 末尾の0の数を計算
+     .min()                         // 最小値を Option<T> で返す
+     .unwrap()                      // Optionをはがす
+};
+```
+
+ポイントは `min()` が返す値が、イテレータの要素数が0の場合も考慮して `Option<T>` を返す設計となっている点である。
+
+</details>
+
 ## QN
 
 <details>
