@@ -12,4 +12,10 @@ fn main() {
     println!("The value of a, b, c is: {}, {}, {}", a, b, c);
 
     println!("tup.0: {}, tup.1: {}, tup.2: {}", tup.0, tup.1, tup.2);
+
+    let array = [1, 2, 3, 4, 5];
+    let first = array[0];
+    let last = array[array.len() - 1];
+
+    println!("first: {}, last: {}", first, last);
 }
