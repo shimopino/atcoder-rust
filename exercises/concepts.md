@@ -15,7 +15,10 @@
 - [Q8](#q8)
 - [Q9](#q9)
 - [Q10](#q10)
-- [QN](#qn)
+- [Q11](#q11)
+- [Q12](#q12)
+- [Q13](#q13)
+- [Q14](#q14)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
