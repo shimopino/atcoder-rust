@@ -66,6 +66,40 @@ io::stdin().read_line(&mut guess)
  
 </details>
 
+## Q3
+
+`Cargo.toml` に `rand` クレートを以下のように定義する。
+
+```toml
+[dependencies]
+
+rand = "0.3.14"
+```
+
+では1から100までの間の数値からランダムに値を返すプログラムを作成してみましょう。
+
+またデフォルトで返される数値の型は何になるでしょうか。
+
+<details>
+<summary>回答例</summary>
+
+乱数生成器が実装するメソッドを使用するトレイトを宣言しておく。
+
+```rust
+use rand::Rng;
+```
+
+後は `rand` パッケージ内の `thread_rng` 関数を使用して乱数生成器を取得し、乱数生成器が有している `gen_range` メソッドを使用して、乱数を生成する値の範囲を決めればいい
+
+```rust
+// 値域は [1, 101) であり上限は含まない
+let secret_number = rand::thread_rng().gen_range(1, 101);
+```
+
+返される数値はデフォルトでは `u32` の32ビットの非負数値として定義されている。
+
+</details>
+
 ## QN
 
 <details>
