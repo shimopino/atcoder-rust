@@ -283,6 +283,28 @@ fn main() {
 
 </details>
 
+## Q12
+
+引数に符号付き32ビット整数を与えて、引数の値に1を足したものを返す関数 `plus_one` を作成してみましょう。
+
+<details>
+<summary>回答例</summary>
+
+注意点は関数内をセミコロンで終わってしまうと、文だと評価されてしまい、文は値には評価されないためにコンパイラが失敗する点である。
+
+```rust
+fn main() {
+    let x = plus_one(5);
+    println!("The value of x is: {}", x);
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
+}
+```
+
+</details>
+
 ## QN
 
 <details>

@@ -26,12 +26,15 @@ fn main() {
     print_age(100);
 
     // 問題11
-    let x = 5;
     let y = {
         let x = 3;
         x + 1
     };
     println!("The value of y is: {}", y);
+
+    // 問題12
+    let x = plus_one(5);
+    println!("The value of x is: {}", x);
 }
 
 fn another_function() {
@@ -40,4 +43,8 @@ fn another_function() {
 
 fn print_age(age: u8) {
     println!("Your age is {}", age);
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
