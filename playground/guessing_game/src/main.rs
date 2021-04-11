@@ -53,12 +53,7 @@ fn main() {
         // expect メソッド呼び出しから match 式に変更することで
         // エラー処理を行うことが可能になる
         // parse() は列挙子として Ok か Err を返す
-        let guess: u32 = match guess.trim().parse() {
-            Ok(num) => num,
-            // _ は包括値
-            // Err が保持している情報にかかわらず次にループに移る
-            Err(_) => continue,
-        };
+        let guess: u32 = guess.trim().parse();
     
         // プレースホルダー {} を使用して変数を文字列に代入できる
         println!("You guessed: {}", guess);

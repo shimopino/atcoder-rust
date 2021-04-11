@@ -102,6 +102,36 @@ let secret_number = rand::thread_rng().gen_range(1, 101);
 
 </details>
 
+## Q4
+
+可変の文字列で定義されている `guess` を両端の空白を削除した後で、32ビットの非負数値に変換してみましょう。
+
+なおその際に数値に変換できない場合は `cannot parse guess` と表示させてみましょう。
+
+<details>
+<summary>回答例</summary>
+
+文字列の `trim()` メソッドを使用することで両端の空白を削除できる。
+
+また `parse()` メソッドを使用することで数値に変換できる。ただし、明示的に数字の型を指定する必要がある。
+
+```rust
+let guess: u32 = guess.trim().parse();
+```
+
+ただし上記の `parse()` メソッドの返り値は列挙型である `std::result::Result` であり32ビットの非負数値に変換できない。
+
+そこで列挙型に `match` 式で評価して、それぞれの列挙子に応じた処理を実装する必要がある。
+
+```rust
+let guess: u32 = match guess.trim().parse() {
+    Ok(num) => num,
+    Err(_) => println!("cannot parse guess"),
+}
+```
+
+</details>
+
 ## QN
 
 <details>
