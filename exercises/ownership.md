@@ -93,6 +93,57 @@ println!("s1 = {}, s2 = {}", s1, s2);   // s1にはアクセス可能である
 
 </details>
 
+## Q4
+
+以下のコードに関して各変数のスコープはどのようになるのでしょうか。
+
+```rust
+fn main() {
+    let s = String::from("hello");
+
+    takes_ownership(s);
+
+    let x = 5;
+
+    makes_copy(x);
+}
+
+fn takes_ownership(some_string: String) {
+    println!("{}", some_string);
+}
+
+fn makes_copy(some_integer: i32) {
+    println!("{}", some_integer);
+}
+```
+
+<details>
+<summary>回答例</summary>
+
+```rust
+fn main() {
+    let s = String::from("hello");  // sがスコープで有効になる
+
+    takes_ownership(s);             // sが関数にムーブされる
+                                    // 以下ではsは使用できない
+
+    let x = 5;                      // xがスコープに入る
+
+    makes_copy(x);                  // 整数はコピーされる
+                                    // 以下でもxは使用できる
+}
+
+fn takes_ownership(some_string: String) {   // some_stringがスコープで有効になる
+    println!("{}", some_string);
+}
+
+fn makes_copy(some_integer: i32) {  // some_integerがスコープで有効になる
+    println!("{}", some_integer);
+}
+```
+
+</details>
+
 ## QN
 
 <details>
