@@ -165,9 +165,3 @@ match guess.cmp(&secret_number) {
 ```
 
 </details>
-
-## QN
-
-<details>
-<summary>回答例</summary>
-</details>
