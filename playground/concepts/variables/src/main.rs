@@ -19,9 +19,19 @@ fn main() {
 
     println!("first: {}, last: {}", first, last);
 
+    // 問題9
     another_function();
 
+    // 問題10
     print_age(100);
+
+    // 問題11
+    let x = 5;
+    let y = {
+        let x = 3;
+        x + 1
+    };
+    println!("The value of y is: {}", y);
 }
 
 fn another_function() {

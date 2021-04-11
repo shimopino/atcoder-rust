@@ -249,6 +249,32 @@ fn print_age(age: u8) {
 
 </details>
 
+## Q11
+
+以下のコードを実行した結果は何になるのでしょうか。
+
+```rust
+fn main() {
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {}", y);
+}
+```
+
+<details>
+<summary>回答例</summary>
+
+新しいスコープを作成する際に使用するブロック (`{}`) は式であり、評価値を `let` 文の一部として変数 `y` に束縛する形になる。
+
+そのため出力結果は `The value of y is: 4` となる。
+
+</details>
+
 ## QN
 
 <details>
