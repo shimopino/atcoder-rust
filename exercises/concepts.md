@@ -18,6 +18,48 @@ const MAX_POINTS: u32 = 100_000;
 
 </details>
 
+## Q2
+
+以下の2つのコードの違いは何でしょうか。
+
+コード1
+
+```rust
+let spaces = "    ";
+let spaces = spaces.len();
+```
+
+コード2
+
+```rust
+let mut spaces = "    ";
+spaces = spaces.len();
+```
+
+<details>
+<summary>回答例</summary>
+
+コード1では、不変の文字列型変数として `spaces` を定義している。
+
+そのあとで文字列長を計算し、再度不変の数値型の変数 `spaces` として、新しい変数を生成している。
+
+この方法では、同じ変数に対して異なる値を割り当てることが可能になる。
+
+```rust
+let spaces = "    ";
+let spaces = spaces.len();
+```
+
+コード2では、可変の文字列型として `spaces` を定義している。
+
+そのあとで文字列長を数値型として再代入しようとしているが、`spaces` の型は文字列型のままなので、型の不一致が発生してしまい、下記コードはコンパイルすることはできない。
+
+```rust
+let mut spaces = "    ";
+spaces = spaces.len();
+```
+
+</details>
 
 ## QN
 
