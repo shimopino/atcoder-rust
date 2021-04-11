@@ -115,6 +115,25 @@ fn main {
 }
 ```
 
+## Q5
+
+Rustで論理値型を定義するにはどうすればいいでしょうか。
+
+<details>
+<summary>回答例</summary>
+
+Rustでは論理値型 (`bool`) として `true` と `false` を使用することができる。
+
+```rust
+fn main() {
+    let t = true;
+
+    let f: bool = false;
+}
+```
+
+</details>
+
 ## QN
 
 <details>
