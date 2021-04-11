@@ -88,6 +88,63 @@ fn main() {
 
 </details>
 
+## Q4
+
+[playground/helloworld](../playground/helloworld) 直下に作成した新規プロジェクト `hello_cargo` をビルドし、実行してみましょう。
+
+またその際に、ビルド前にコンパイルできるか確認するためのコマンドを実行してみましょう。
+
+<details>
+<summary>回答例</summary>
+
+まずは `cargo check` でコードがコンパイル可能か確認する。
+
+```bash
+$ cargo check
+    Checking hello_cargo v0.1.0 (/workspaces/rust-exercises/playground/helloworld/hello_cargo)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.32s
+```
+
+では次にプロジェクトのビルドを実行する。
+
+```bash
+$ cargo build
+   Compiling hello_cargo v0.1.0 (/workspaces/rust-exercises/playground/helloworld/hello_cargo)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.16s
+```
+
+ビルドを実行した結果、以下のように新たなファイルが作成されていることがわかる。
+
+```bash
+$ tree -L 2
+
+hello_cargo/
+├── Cargo.lock
+├── Cargo.toml
+├── src
+│   └── main.rs
+└── target
+    ├── CACHEDIR.TAG
+    └── debug
+```
+
+最上位のディレクトリに作成される `Cargo.lock` には、プロジェクトが依存しているパッケージの正確なバージョン情報を管理している。
+
+また `target/debug/` に開発用にコンパイルされた実行可能なファイルが作成されており、`target/debug/hello_world` という名称でバイナリファイルが作成されている。
+
+では次に実行可能ファイルを実行する。
+
+```bash
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/hello_cargo`
+Hello, world!
+```
+
+これで新規プロジェクトを作成し、コードを実行するまでの流れである。
+
+</details>
+
 ## QN
 
 <details>
