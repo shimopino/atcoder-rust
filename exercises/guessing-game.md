@@ -133,6 +133,38 @@ let guess: u32 = match guess.trim().parse() {
 
 </details>
 
+## Q5
+
+32ビットの非負数値として定義されている `guess` と `secret_number` が存在している。
+
+では2値の比較を行う `cmp` メソッドと `match` 式を使用して、値が同じ場合、小さい場合、大きい場合に応じて処理を定義してみましょう。
+
+<details>
+<summary>回答例</summary>
+
+`cmp` メソッドは返り値の列挙子として `std::cmp::Ordering` で定義されている列挙子を返す。
+
+そこでまずは該当の列挙子をスコープに含めておく。
+
+```rust
+use std::cmp::Ordering;
+```
+
+次に `match` 式を使用して列挙子に応じて処理を実装する。
+
+```rust
+match guess.cmp(&secret_number) {
+    Ordering::Less => println!("Too small"),
+    Ordering::Greater => println!("Too small"),
+    Ordering::Equal => {
+        println!("You win");
+        break;
+    }
+}
+```
+
+</details>
+
 ## QN
 
 <details>
