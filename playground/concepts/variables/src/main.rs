@@ -20,8 +20,14 @@ fn main() {
     println!("first: {}, last: {}", first, last);
 
     another_function();
+
+    print_age(100);
 }
 
 fn another_function() {
     println!("Another Function");
+}
+
+fn print_age(age: u8) {
+    println!("Your age is {}", age);
 }

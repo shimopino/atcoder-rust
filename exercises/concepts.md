@@ -230,6 +230,25 @@ fn another_function() {
 
 </details>
 
+## Q10
+
+8ビットの非負整数の `age` を受け取り、`your age is {age}` を出力する関数を作成して、`main` から呼び出してみましょう。
+
+<details>
+<summary>回答例</summary>
+
+```rust
+fn main() {
+    print_age(100);
+}
+
+fn print_age(age: u8) {
+    println!("Your age is {}", age);
+}
+```
+
+</details>
+
 ## QN
 
 <details>
