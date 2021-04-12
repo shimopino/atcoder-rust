@@ -286,6 +286,92 @@ let sum = i.to_string()                 // まずは数値型を文字列型に�
 
 </details>
 
+## Q11 Vec型の配列からイテレータを作成して逆順でアクセスするにはどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+`iter()` でイテレータを作成して、イテレータの `rev` メソッドを使用すれば、順番を逆にして返すような新しいイテレータを返す。
+
+```rust
+rev(): DoubleEndedIterator<T> -> DoubleEndedIterator<T>
+```
+
+これは要素の右から左へ繰り返すようにするため、必ず End が存在するイテレータである必要があり、そのために `DoubleEndedIterator` に依存している。
+
+[公式ドキュメント](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.rev) の事例がわかりやすい。
+
+```rust
+let a = [1, 2, 3];
+
+let mut iter = a.iter().rev();
+
+assert_eq!(iter.next(), Some(&3));
+assert_eq!(iter.next(), Some(&2));
+assert_eq!(iter.next(), Some(&1));
+
+assert_eq!(iter.next(), None);
+```
+
+</details>
+
+## Q12 イテレータに対して `enumerate` を使用するとどのような値が返ってくるでしょうか
+
+<details>
+<summary>回答</summary>
+
+`enumerate` を使用すると、呼び出した時点を最初として、要素の順番を `(順番インデックス, 要素)` のタプルで返すようなイテレータを作成する。
+
+```rust
+enumerate(): Iterator<T> -> Iterator<(usize, T)>
+```
+
+[公式ドキュメント](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.enumerate) にある通り、あくまでの順番のインデックスを `usize` で返すため、ほかの型を使用したい場合には `zip` を代わりに使用したほうがよさそう。
+
+```rust
+let a = ['a', 'b', 'c'];
+
+let mut iter = a.iter().enumerate();
+
+assert_eq!(iter.next(), Some((0, &'a')));
+assert_eq!(iter.next(), Some((1, &'b')));
+assert_eq!(iter.next(), Some((2, &'c')));
+assert_eq!(iter.next(), None);
+```
+
+</details>
+
+## Q13 イテレータに対して `zip` を `enumerate` と同じように処理させるにはどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+`zip` では2つのイテレータから両方の要素を順番にアクセスしていき、そのペアを返すようなイテレータを作成する。
+
+```rust
+zip(): Iterator<T> -> IntoIterator<U> -> Iterator<T, U>
+```
+
+[公式ドキュメント](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.zip) にもある通り、以下のようにイテレータを指定することで、`enumerate` と同じような動作をさせることができる。
+
+```rust
+let enumerate: Vec<_> = "foo".chars().enumerate().collect();
+
+let zipper: Vec<_> = (0..).zip("foo".chars()).collect();
+
+assert_eq!((0, 'f'), enumerate[0]);
+assert_eq!((0, 'f'), zipper[0]);
+
+assert_eq!((1, 'o'), enumerate[1]);
+assert_eq!((1, 'o'), zipper[1]);
+
+assert_eq!((2, 'o'), enumerate[2]);
+assert_eq!((2, 'o'), zipper[2]);
+```
+
+</details>
+
+
 ## QN
 
 <details>
