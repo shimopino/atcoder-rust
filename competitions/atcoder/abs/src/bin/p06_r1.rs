@@ -3,7 +3,7 @@ use proconio::input;
 fn main() {
     input! {
         n: u32,
-        a: [u32; n],
+        mut a: [u32; n],
     };
 
     a.sort();
