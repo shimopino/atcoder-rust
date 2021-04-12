@@ -2,6 +2,9 @@
 
 FROM mcr.microsoft.com/vscode/devcontainers/rust:0-1
 
+ENV TZ="Asia/Tokyo"
+RUN echo $TZ > /etc/timezone
+
 # [Optional] Uncomment this section to install additional packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
