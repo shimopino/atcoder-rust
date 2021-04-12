@@ -374,6 +374,26 @@ assert_eq!((2, 'o'), zipper[2]);
 
 </details>
 
+## Q14 Vec型から重複した要素を削除するにはどうすればいいでしょうか
+
+<details>
+<summary>回答</summary>
+
+`dedup` を使用することで、連続して重複している要素を削除することができる。
+
+これは [公式ドキュメント](https://doc.rust-lang.org/std/vec/struct.Vec.html#method.dedup) の例がわかりやすい
+
+```rust
+let mut vec = vec![1, 2, 2, 3, 2];
+
+dev.dedup();
+
+assert_eq!(vec, [1, 2, 3, 2]);
+```
+
+全ての重複する要素を削除したい場合は事前にソートをしておくことで削除できる。
+
+</details>
 
 ## QN
 
