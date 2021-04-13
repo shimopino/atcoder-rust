@@ -396,6 +396,76 @@ assert_eq!(vec, [1, 2, 3, 2]);
 
 </details>
 
+## Q15 Stringで初期化した文字列や、ダブルクォーテーションで指定した文字列が空文字であることを確認するには
+
+<details>
+<summary>回答</summary>
+
+`is_empty` を使用することで空文字判定に使用できる。
+
+[Primitiveな文字列の場合](https://doc.rust-lang.org/stable/std/primitive.str.html#method.is_empty) は以下のように、0バイトであるかどうかを判定している。
+
+```rust
+let s = "";
+assert!(s.is_empty());
+
+let s = "not empty";
+assert!(!s.is_empty());
+```
+
+[`String` 型の場合](https://doc.rust-lang.org/std/string/struct.String.html#method.is_empty) には以下のように長さが0であることを確認している。
+
+```rust
+let mut v = String::new();
+assert!(v.is_empty());
+
+v.push('a');
+assert!(!v.is_empty());
+```
+
+</details>
+
+## Q16 String型に対して末尾が所定の文字列であることを確認するには
+
+<details>
+<summary>回答</summary>
+
+[`ends_with`](https://doc.rust-lang.org/std/string/struct.String.html#method.ends_with) を使用して、末尾が指定したパターンにマッチしているのか判定できる。
+
+```rust
+let bananas = "bananas";
+
+assert!(bananas.ends_with("anas"));
+assert!(!bananas.ends_with("nana"));
+```
+
+</details>
+
+## Q17 String型の文字列から所定の長さの文字を抽出したい場合は
+
+<details>
+<summary>回答</summary>
+
+[`truncate`](https://doc.rust-lang.org/std/string/struct.String.html#method.truncate) を使用すればいい。
+
+```rust
+let mut s = String::from("hello");
+
+s.truncate(2);
+
+assert_eq!("he", s);
+```
+
+</details>
+
+## QN
+
+<details>
+<summary>回答</summary>
+
+
+</details>
+
 ## QN
 
 <details>
