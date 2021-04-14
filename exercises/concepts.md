@@ -362,3 +362,17 @@ for element in a.iter() {
 ```
 
 </details>
+
+## Q15
+
+`isize` や `usize` などのデータ型が存在しているが、主にどういった場面で使用されているでしょうか。
+
+<details>
+<summary>回答例</summary>
+<div>
+
+- 配列やベクタの要素へのアクセス
+- 配列やベクタのサイズの表現
+
+</div>
+</details>
