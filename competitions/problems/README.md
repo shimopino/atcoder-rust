@@ -19,7 +19,6 @@
 ## 全探索
 
 - [たのしい探索アルゴリズムの世界【前編：全探索、bit全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6#2-%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%85%A8%E6%8E%A2%E7%B4%A2)
-- [再帰関数を学ぶと、どんな世界が広がるか](https://qiita.com/drken/items/23a4f604fa3f505dd5ad)
 - [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#6-bit-%E5%85%A8%E6%8E%A2%E7%B4%A2)
 
 問題集
@@ -61,7 +60,19 @@
   - [ABC 150 C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)
   - [ABC 054 C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)
 
+バチャ
+
+- [全探索](https://kenkoooo.com/atcoder/#/contest/show/05dd88b8-9946-4356-900e-0772486976b4)
+
 ## 再帰と分割統治法
+
+- [再帰関数を学ぶと、どんな世界が広がるか](https://qiita.com/drken/items/23a4f604fa3f505dd5ad)
+
+問題集
+
+- [ABC 079 B – Lucas Number](https://math.nakaken88.com/textbook/cp-fibonacci-sequence-and-recursive-function/)
+- [ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)
+- [EDPC A – Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)
 
 ## 動的計画法
 
