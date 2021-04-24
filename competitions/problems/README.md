@@ -43,6 +43,7 @@
   - [ABC 051 B - Sum of Three Integer](https://atcoder.jp/contests/abc051/tasks/abc051_b)
   - [ABC パ研杯2019 C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
 - 探索数削減
+  - [ABC 085 C - Otoshidama](https://atcoder.jp/contests/abc085/tasks/abc085_c)
   - [ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)
   - [ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)
   - [ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
@@ -59,6 +60,7 @@
   - [ABC 002 D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)
   - [ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)
   - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
+  - [ABC 197 C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)
   - [JOI 2008 予選 5 - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
   - [Square869120Contest #4 B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
 - 順列全探索
@@ -79,6 +81,7 @@
 - [ABC 079 B – Lucas Number](https://math.nakaken88.com/textbook/cp-fibonacci-sequence-and-recursive-function/)
 - [ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)
 - [EDPC A – Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)
+- [ABC 196 D - Hanjo](https://atcoder.jp/contests/abc196/tasks/abc196_d)
 
 ## 動的計画法
 
