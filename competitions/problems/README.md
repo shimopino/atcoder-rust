@@ -5,6 +5,7 @@
 
 ## 全探索
 
+- [たのしい探索アルゴリズムの世界【前編：全探索、bit全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6#2-%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%85%A8%E6%8E%A2%E7%B4%A2)
 - [再帰関数を学ぶと、どんな世界が広がるか](https://qiita.com/drken/items/23a4f604fa3f505dd5ad)
 - [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#6-bit-%E5%85%A8%E6%8E%A2%E7%B4%A2)
 
@@ -22,12 +23,16 @@
   - [ABC 105 B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)
   - [ABC 144 B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b)
   - [ABC 051 B - Sum of Three Integer](https://atcoder.jp/contests/abc051/tasks/abc051_b)
+  - [ABC パ研杯2019 C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
 - 探索数削減
   - [ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)
   - [ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)
   - [ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
   - [ABC 095 C - Half and Half](https://atcoder.jp/contests/abc095/tasks/arc096_a)
   - [三井住友信託銀行プログラミングコンテスト2019 D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
+  - [JOI 2007 本選 3 - 最古の遺跡](https://atcoder.jp/contes[ts/joi2007ho/tasks/joi2007ho_c)
+  - [Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
+  - [JOI 2008 予選 4 - 星座探し](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_d)
 - bit全探索
   - [ABC 079 C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)
   - [ABC 045 C - たくさんの数式](https://atcoder.jp/contests/arc061/tasks/arc061_a)
@@ -36,6 +41,8 @@
   - [ABC 002 D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)
   - [ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)
   - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
+  - [JOI 2008 予選 5 - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
+  - [Square869120Contest #4 B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
 - 順列全探索
   - [ABC 145 C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)
   - [ABC 150 C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)
