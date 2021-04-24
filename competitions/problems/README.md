@@ -25,8 +25,8 @@
 - 探索数削減
   - [ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)
   - [ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)
-  - [ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)　探索通り数を頑張って減らします。
-  - [ABC 095 C - Half and Half](https://atcoder.jp/contests/abc095/tasks/arc096_a)　探索通り数を頑張って減らします。
+  - [ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
+  - [ABC 095 C - Half and Half](https://atcoder.jp/contests/abc095/tasks/arc096_a)
   - [三井住友信託銀行プログラミングコンテスト2019 D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
 - bit全探索
   - [ABC 079 C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)
@@ -34,8 +34,8 @@
   - [ABC 104 C - All Green](https://atcoder.jp/contests/abc104/tasks/abc104_c)
   - [ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)
   - [ABC 002 D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)
-  - [ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)　ビット全探索の基本です。
-  - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)　ビット全探索の基本です。
+  - [ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)
+  - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
 - 順列全探索
   - [ABC 145 C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)
   - [ABC 150 C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)
