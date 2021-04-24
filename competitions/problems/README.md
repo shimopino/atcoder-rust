@@ -41,7 +41,6 @@
   - [ABC 106 B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b)
   - [ABC 120 B - K-th Common Divisors](https://atcoder.jp/contests/abc120/tasks/abc120_b)
   - [ABC 105 B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)
-  - [ABC 144 B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b)
   - [ABC 051 B - Sum of Three Integer](https://atcoder.jp/contests/abc051/tasks/abc051_b)
   - [ABC パ研杯2019 C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
 - 探索数削減
