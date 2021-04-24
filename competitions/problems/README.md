@@ -1,7 +1,20 @@
 # 問題集
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [全探索](#%E5%85%A8%E6%8E%A2%E7%B4%A2)
+- [再帰と分割統治法](#%E5%86%8D%E5%B8%B0%E3%81%A8%E5%88%86%E5%89%B2%E7%B5%B1%E6%B2%BB%E6%B3%95)
+- [動的計画法](#%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95)
+- [二分探索法](#%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2%E6%B3%95)
+- [貪欲法](#%E8%B2%AA%E6%AC%B2%E6%B3%95)
+- [](#)
+- [参考資料](#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 全探索
 
