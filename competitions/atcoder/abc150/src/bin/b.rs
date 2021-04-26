@@ -3,7 +3,7 @@ use proconio::marker::Chars;
 
 fn main() {
     input! {
-        n: u32,
+        _n: u32,
         s: Chars,
     }
 
