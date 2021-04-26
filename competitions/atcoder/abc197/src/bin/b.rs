@@ -21,7 +21,7 @@ fn main() {
     }
 
     // (x, y)のxの下側
-    for i in (x..h) {
+    for i in x..h {
         if s[i][y-1] == '#' {
             break;
         }
@@ -37,7 +37,7 @@ fn main() {
     }
 
     // (x, y)のxの下側
-    for j in (y..w) {
+    for j in y..w {
         if s[x-1][j] == '#' {
             break;
         }
