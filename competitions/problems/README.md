@@ -77,6 +77,7 @@
   - [ABC 145 C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)
   - [ABC 150 C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)
   - [ABC 054 C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)
+  - [JOI 2009 予選 D カード並べ](https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_d)
 - 再帰
   - [ABC 165 C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)
   - [CPSCO2019 Day1 C - Coins](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c)
