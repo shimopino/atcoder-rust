@@ -42,12 +42,18 @@
   - [ABC 105 B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)
   - [ABC 051 B - Sum of Three Integer](https://atcoder.jp/contests/abc051/tasks/abc051_b)
   - [ABC パ研杯2019 C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
-- 探索数削減
+  - [ABC 068 B - Break Numbers](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [ABC 157 C - Guess the Number](https://atcoder.jp/contests/abc157/tasks/abc157_c)
+  - [M-SOLUTIONSプロコンオープン2020 B - Magic 2](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_b)
+  - [三井住友信託銀行プログラミングコンテスト2019 B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)
+- 複雑な探索
   - [ABC 085 C - Otoshidama](https://atcoder.jp/contests/abc085/tasks/abc085_c)
   - [ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)
   - [ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)
   - [ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
   - [ABC 095 C - Half and Half](https://atcoder.jp/contests/abc095/tasks/arc096_a)
+  - [ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)
+  - [三井住友信託銀行プログラミングコンテスト2019 C - 100 to 105](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_c)
   - [三井住友信託銀行プログラミングコンテスト2019 D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
   - [JOI 2007 本選 3 - 最古の遺跡](https://atcoder.jp/contes[ts/joi2007ho/tasks/joi2007ho_c)
   - [Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
@@ -60,13 +66,21 @@
   - [ABC 002 D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)
   - [ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)
   - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
+  - [ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)
   - [ABC 197 C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)
   - [JOI 2008 予選 5 - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
   - [Square869120Contest #4 B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
+- bit全探索 - 拡張
+  - [ABC 031 D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)
+  - [M-SOLUTIONS プロコンオープン 2020 E - M's Solution](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_e)
 - 順列全探索
   - [ABC 145 C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)
   - [ABC 150 C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)
   - [ABC 054 C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)
+- 再帰
+  - [ABC 165 C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)
+  - [CPSCO2019 Day1 C - Coins](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c)
+  - [パナソニックプログラミングコンテスト 2020 D - String Equivalence](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d)
 
 バチャ
 
