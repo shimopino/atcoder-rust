@@ -68,6 +68,8 @@
   - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
   - [ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)
   - [ABC 197 C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)
+  - [ABC182 C - To 3](https://atcoder.jp/contests/abc182/tasks/abc182_c)
+  - [ABC190 C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c)
   - [JOI 2008 予選 5 - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
   - [Square869120Contest #4 B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
 - bit全探索 - 拡張
