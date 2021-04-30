@@ -5,6 +5,9 @@
 
 - [rust-exercises](#rust-exercises)
   - [Resources](#resources)
+  - [参考資料](#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99)
+    - [Rust記法](#rust%E8%A8%98%E6%B3%95)
+    - [Stackoverflow](#stackoverflow)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
