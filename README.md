@@ -17,3 +17,13 @@
   - [The Rust Programming Language 日本語版](https://doc.rust-jp.rs/book-ja/title-page.html)
 - .gitignore
   - [Rust.gitignore](https://github.com/github/gitignore/blob/master/Rust.gitignore)
+
+## 参考資料
+
+### Rust記法
+
+- [Struct std::vec::Vec](https://doc.rust-lang.org/std/vec/struct.Vec.html)
+
+### Stackoverflow
+
+- [[Stackoverflow] Cargo build hangs with “ Blocking waiting for file lock on the registry index” after building parity from source](https://stackoverflow.com/questions/47565203/cargo-build-hangs-with-blocking-waiting-for-file-lock-on-the-registry-index-a)
