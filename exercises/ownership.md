@@ -155,6 +155,53 @@ fn makes_copy(some_integer: i32) {  // some_integerがスコープで有効に�
 
 </details>
 
+## Q5
+
+以下の2つのコードの違いは何でしょうか。
+
+パターン1
+
+```rust
+fn main() {
+    let s1 = String::from("hello");
+
+    let (s2, len) = calculate_length(s1);
+
+    //'{}'の長さは、{}です
+    println!("The length of '{}' is {}.", s2, len);
+}
+
+fn calculate_length(s: String) -> (String, usize) {
+    let length = s.len(); // len()メソッドは、Stringの長さを返します
+
+    (s, length)
+}
+```
+
+パターン2
+
+```rust
+fn main() {
+    let s1 = String::from("hello");
+
+    let len = calculate_length(&s1);
+
+    // '{}'の長さは、{}です
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &String) -> usize {
+    s.len()
+}
+```
+
+<details>
+<summary>回答例</summary>
+
+
+
+</details>
+
 ## QN
 
 <details>
