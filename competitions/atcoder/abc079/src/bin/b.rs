@@ -2,23 +2,15 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: i32,
+        n: u64,
     }
 
-    let mut biggest_count = -1;
-    let mut biggest = -1; 
-    for inumber in 1..=n {
-        let mut count = 0;
-        let mut target = inumber;
-        while target % 2 == 0 {
-            count += 1;
-            target /= 2;
-        }
-
-        if count > biggest_count {
-            biggest_count = count;
-            biggest = inumber;
-        }
+    let mut l0: u64 = 2;
+    let mut l1: u64 = 1;
+    for _ in 2..=n {
+        let tmp = l0 + l1;
+        l0 = l1;
+        l1 = tmp;
     }
-    println!("{}", biggest);
+    println!("{}", l1); 
 }
