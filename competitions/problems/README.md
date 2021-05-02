@@ -23,6 +23,60 @@
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 準備問題
+
+- 倍数判定
+  - [ABC 086 A - Product](https://atcoder.jp/contests/abc086/tasks/abc086_a)
+  - [ABC 064 A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a)
+  - [ABC 088 A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)
+  - [ABC 157 A - Duplex Printing](https://atcoder.jp/contests/abc157/tasks/abc157_a)
+- 文字列操作
+  - [ABC 081 A - Placing Marbles](https://atcoder.jp/contests/abc081/tasks/abc081_a)
+  - [ABC 095 A - Something on It](https://atcoder.jp/contests/abc095/tasks/abc095_a)
+  - [ABC 085 A - Already 2018](https://atcoder.jp/contests/abc085/tasks/abc085_a)
+  - [ABC 069 B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b)
+  - [ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)
+- N進数
+  - [ABC 083 B - Some Sums](https://atcoder.jp/contests/abc083/tasks/abc083_b)
+  - [ABC 090 B - Palindromic Numbers](https://atcoder.jp/contests/abc090/tasks/abc090_b)
+  - [AGC 025 A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a)
+  - [ABC 156 B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b)
+- ソート
+  - [ABC 088 B - Card Game for Two](https://atcoder.jp/contests/abc088/tasks/abc088_b)
+  - [ABC 067 B - Snake Toy](https://atcoder.jp/contests/abc067/tasks/abc067_b)
+  - [ABC 042 B - Iroha Loves Strings](https://atcoder.jp/contests/abc042/tasks/abc042_b)
+  - [AGC 027 A - Candy Distribution Again](https://atcoder.jp/contests/agc027/tasks/agc027_a)
+  - [AGC 012 A - AtCoder Group Contest](https://atcoder.jp/contests/agc012/tasks/agc012_a)
+- 連想配列
+  - [ABC 085 B - Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)
+  - [ABC 071 B - Not Found](https://atcoder.jp/contests/abc071/tasks/abc071_b)
+  - [ABC 061 B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_b)
+  - [ABC 047 B - Snuke's Coloring 2 (ABC Edit)](https://atcoder.jp/contests/abc047/tasks/abc047_b)
+  - [ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)
+  - [ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)
+- パリティ
+  - [ABC 086 C - Traveling](https://atcoder.jp/contests/abc086/tasks/arc089_a)
+  - [ABC 093 C - Same Integers](https://atcoder.jp/contests/abc093/tasks/arc094_a)
+  - [AGC 010 A - Addition](https://atcoder.jp/contests/agc010/tasks/agc010_a)
+  - [AGC 020 A - Move and Win](https://atcoder.jp/contests/agc020/tasks/agc020_a)
+  - [ABC 073 C - Write and Erase](https://atcoder.jp/contests/abc073/tasks/abc073_c)
+- グリッド
+  - [ABC 075 B](https://atcoder.jp/contests/abc075/tasks/abc075_b)
+  - [ABC 096 C](https://atcoder.jp/contests/abc096/tasks/abc096_c)
+- 区間重なり
+  - [ABC 070 B](https://atcoder.jp/contests/abc070/tasks/abc070_b)
+- 余り
+  - [ABC 055 B](https://atcoder.jp/contests/abc055/tasks/abc055_b)
+- 数学的問題
+  - [ABC 046 B](https://atcoder.jp/contests/abc046/tasks/abc046_b)
+  - [ABC 048 B](https://atcoder.jp/contests/abc048/tasks/abc048_b)
+- 状態ループ
+  - [ABC 060 B](https://atcoder.jp/contests/abc060/tasks/abc060_b)
+  - [ABC 065 B](https://atcoder.jp/contests/abc065/tasks/abc065_b)
+- 累積和
+  - [ABC 087 C](https://atcoder.jp/contests/abc087/tasks/arc090_a)
+  - [ABC 098 C](https://atcoder.jp/contests/abc098/tasks/arc098_a)
+
 ## 全探索
 
 - [たのしい探索アルゴリズムの世界【前編：全探索、bit全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6#2-%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%85%A8%E6%8E%A2%E7%B4%A2)
@@ -31,6 +85,12 @@
 問題集
 
 - 全探索
+  - [ABC 081 B - Shift Only](https://atcoder.jp/contests/abc081/tasks/abc081_b)
+  - [ABC 102 B - Maximum Difference](https://atcoder.jp/contests/abc102/tasks/abc102_b)
+  - [ABC 113 B - Palace](https://atcoder.jp/contests/abc113/tasks/abc113_b)
+  - [ABC 072 B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b)
+  - [ABC 053 B - A to Z String](https://atcoder.jp/contests/abc053/tasks/abc053_b)
+  - [ABC 095 B - Bitter Alchemy](https://atcoder.jp/contests/abc095/tasks/abc095_b)
   - [ABC 133 B - Good Distance](https://atcoder.jp/contests/abc133/tasks/abc133_b)
   - [ABC 175 B - Making Triangle](https://atcoder.jp/contests/abc175/tasks/abc175_b)
   - [ABC 144 B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b)
@@ -44,6 +104,7 @@
   - [ABC パ研杯2019 C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
   - [ABC 068 B - Break Numbers](https://atcoder.jp/contests/abc068/tasks/abc068_b)
   - [ABC 157 C - Guess the Number](https://atcoder.jp/contests/abc157/tasks/abc157_c)
+  - [ARC 004 A 2点間距離の最大値](https://atcoder.jp/contests/arc004/tasks/arc004_1)
   - [M-SOLUTIONSプロコンオープン2020 B - Magic 2](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_b)
   - [三井住友信託銀行プログラミングコンテスト2019 B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)
 - 複雑な探索
@@ -104,6 +165,14 @@
 ## 動的計画法
 
 ## 二分探索法
+
+参考資料
+
+- [競技プログラミングにおける二分探索・三分探索問題まとめ](http://hamayanhamayan.hatenablog.jp/entry/2017/07/05/160236)
+
+問題集
+
+
 
 ## 貪欲法
 
