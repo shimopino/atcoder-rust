@@ -82,6 +82,7 @@
 
 - [たのしい探索アルゴリズムの世界【前編：全探索、bit全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6#2-%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%85%A8%E6%8E%A2%E7%B4%A2)
 - [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#6-bit-%E5%85%A8%E6%8E%A2%E7%B4%A2)
+- [[AtCoder] AC - 3.05.ビット演算](https://atcoder.jp/contests/apg4b/tasks/APG4b_ac?lang=ja)
 
 問題集
 
@@ -130,6 +131,7 @@
   - [ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)
   - [ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)
   - [ABC 197 C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)
+  - [ABC 080 C - Shopping Street](https://atcoder.jp/contests/abc080/tasks/abc080_c)
   - [ABC182 C - To 3](https://atcoder.jp/contests/abc182/tasks/abc182_c)
   - [ABC190 C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c)
   - [JOI 2008 予選 5 - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
