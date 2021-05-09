@@ -74,9 +74,19 @@
 - 状態ループ
   - [ ] [ABC 060 B](https://atcoder.jp/contests/abc060/tasks/abc060_b)
   - [ ] [ABC 065 B](https://atcoder.jp/contests/abc065/tasks/abc065_b)
+
+参考記事
+
+[累積和を何も考えずに書けるようにする！](https://qiita.com/drken/items/56a6b68edef8fc605821)
+
 - 累積和
-  - [ ] [ABC 087 C](https://atcoder.jp/contests/abc087/tasks/arc090_a)
-  - [ ] [ABC 098 C](https://atcoder.jp/contests/abc098/tasks/arc098_a)
+  - [ ] [AOJ 0516 - 最大の和 (JOI 2006 本選 A)](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0516)
+  - [ ] [ABC 087 C - Candies](https://atcoder.jp/contests/abc087/tasks/arc090_a)
+  - [ ] [ABC 098 C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)
+  - [ ] [ABC 084 D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)
+  - [ ] [ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)
+  - [ ] [AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)
+  - [ ] [ABC 005 D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4)
 
 ## 全探索
 
@@ -181,10 +191,10 @@ EDPC問題集
   - [ ] [ABC 040 C - 柱柱柱柱柱](https://atcoder.jp/contests/abc040/tasks/abc040_c)
   - [ ] [ABC 129 C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)
   - [ ] [AOJ 0168 観音堂](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0168)
-  - [ ] [EDPC B - Frog2](https://atcoder.jp/contests/dp/tasks/dp_b)
+  - [x] [EDPC B - Frog2](https://atcoder.jp/contests/dp/tasks/dp_b)
   - [ ] [ABC 099 C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)
-  - [ ] [EDPC C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)
-  - [ ] [EDPC D - Knapsack1](https://atcoder.jp/contests/dp/tasks/dp_d)
+  - [x] [EDPC C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)
+  - [x] [EDPC D - Knapsack1](https://atcoder.jp/contests/dp/tasks/dp_d)
   - [ ] [TDPC A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)
   - [ ] [TDPC D - サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)
   - [ ] [ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)
@@ -251,6 +261,27 @@ EDPC問題集
 - [ARC032 B - 道路工事](https://atcoder.jp/contests/arc032/tasks/arc032_2)
 
 ## グラフ探索
+
+参考資料
+
+- [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【前編】](https://qiita.com/drken/items/4a7869c5e304883f539b)
+- [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【後編】](https://qiita.com/drken/items/a803d4fc4a727e02f7ba)
+- [BFS (幅優先探索) 超入門！ 〜 キューを鮮やかに使いこなす 〜](https://qiita.com/drken/items/996d80bcae64649a6580)
+
+問題集
+
+- 深さ優先探索
+  - [ ] [ALDS_11_B - 深さ優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B)
+  - [ ] [AOJ 1160 - 島はいくつある？](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
+  - [ ] [AtCoder Beginner Contest 138 D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)
+  - [ ] [JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)
+- 幅優先探索
+  - [ ] [ALDS_11_C - 幅優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_C&lang=ja)
+  - [ ] [ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)
+  - [ ] [JOI 2011 予選 5 - チーズ](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)
+  - [ ] [JOI 2012 予選 5 - イルミネーション](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)
+  - [ ] [AOJ 1166 - 迷図と命ず](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp)
+  - [ ] [ABC 088 D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)
 
 ## 最短路
 
