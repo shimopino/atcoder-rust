@@ -171,16 +171,35 @@
 - [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
 - [Educational DP Contest の F ～ J 問題の解説と類題集](https://qiita.com/drken/items/03c7db44ccd27820ea0d)
 - [ゲームを解く！Educational DP Contest K, L 問題の解説](https://qiita.com/drken/items/4e1bcf8413af16cb62da)
+- [Educational DP Contestの勧め](https://blog.hamayanhamayan.com/entry/2019/01/12/163853)
 - [典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～](https://qiita.com/drken/items/a5e6fe22863b7992efdb)
 
-問題集
+EDPC問題集
 
-- 基礎問題
-  - [EDPC A - Frog1](https://atcoder.jp/contests/dp/tasks/dp_a)
-  - [EDPC B - Frog2](https://atcoder.jp/contests/dp/tasks/dp_b)
-  - [EDPC C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)
-  - [EDPC D - Knapsack1](https://atcoder.jp/contests/dp/tasks/dp_d)
-  - [EDPC E - Knapsack2](https://atcoder.jp/contests/dp/tasks/dp_e)
+- Educational DP Content & Related Problems
+  - [x] [EDPC A - Frog1](https://atcoder.jp/contests/dp/tasks/dp_a)
+  - [ ] [ABC 040 C - 柱柱柱柱柱](https://atcoder.jp/contests/abc040/tasks/abc040_c)
+  - [ ] [ABC 129 C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)
+  - [ ] [AOJ 0168 観音堂](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0168)
+  - [ ] [EDPC B - Frog2](https://atcoder.jp/contests/dp/tasks/dp_b)
+  - [ ] [ABC 099 C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)
+  - [ ] [EDPC C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)
+  - [ ] [EDPC D - Knapsack1](https://atcoder.jp/contests/dp/tasks/dp_d)
+  - [ ] [TDPC A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)
+  - [ ] [TDPC D - サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)
+  - [ ] [ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)
+  - [ ] [JOI 2010 予選 D - 1年生](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d)
+  - [ ] [JOI 2011 予選 D - パスタ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)
+  - [ ] [JOI 2012 予選 D - 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)
+  - [ ] [JOI 2010 予選 B - 古本屋](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho2)
+  - [ ] [AOJ 2566 Restore Calculation](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2566)
+  - [ ] [EDPC E - Knapsack2](https://atcoder.jp/contests/dp/tasks/dp_e)
+  - [ ] [ARC 057 B - 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)
+  - [ ] [AOJ 2263 ファーストアクセプタンス](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2263)
+  - [ ] [ABC 032 D ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)
+
+手法別問題集
+
 - ナップザックDP
   - [ALDS_10_A - フィボナッチ数](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_A&lang=ja)
   - [DPL_1_B - 0,1ナップザック問題](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_B&lang=ja)
