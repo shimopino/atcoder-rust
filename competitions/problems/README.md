@@ -45,7 +45,7 @@
 - ソート
   - [x] [ABC 088 B - Card Game for Two](https://atcoder.jp/contests/abc088/tasks/abc088_b)
   - [x] [ABC 067 B - Snake Toy](https://atcoder.jp/contests/abc067/tasks/abc067_b)
-  - [ ] [ABC 042 B - Iroha Loves Strings](https://atcoder.jp/contests/abc042/tasks/abc042_b)
+  - [x] [ABC 042 B - Iroha Loves Strings](https://atcoder.jp/contests/abc042/tasks/abc042_b)
   - [ ] [AGC 027 A - Candy Distribution Again](https://atcoder.jp/contests/agc027/tasks/agc027_a)
   - [ ] [AGC 012 A - AtCoder Group Contest](https://atcoder.jp/contests/agc012/tasks/agc012_a)
 - 連想配列
