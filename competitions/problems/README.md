@@ -50,8 +50,8 @@
   - [ ] [AGC 012 A - AtCoder Group Contest](https://atcoder.jp/contests/agc012/tasks/agc012_a)
 - 連想配列
   - [ ] [ABC 085 B - Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)
-  - [ ] [ABC 071 B - Not Found](https://atcoder.jp/contests/abc071/tasks/abc071_b)
-  - [ ] [ABC 061 B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_b)
+  - [x] [ABC 071 B - Not Found](https://atcoder.jp/contests/abc071/tasks/abc071_b)
+  - [x] [ABC 061 B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_b)
   - [ ] [ABC 047 B - Snuke's Coloring 2 (ABC Edit)](https://atcoder.jp/contests/abc047/tasks/abc047_b)
   - [ ] [ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)
   - [ ] [ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)
