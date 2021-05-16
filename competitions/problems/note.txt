@@ -3,3 +3,7 @@
     - B問題: ソート
     - C問題
     - D問題
+
+- 文字列操作
+  - code-festival-2016-qualb
+    - A問題
