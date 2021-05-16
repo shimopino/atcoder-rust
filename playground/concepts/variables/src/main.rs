@@ -35,6 +35,13 @@ fn main() {
     // 問題12
     let x = plus_one(5);
     println!("The value of x is: {}", x);
+
+    println!("{} - {}", 'A', b'A');
+    println!("{} - {}", 'Z', b'Z');
+    println!("{} - {}", 'a', b'a');
+    println!("{} - {}", 'z', b'z');
+    println!("{} - {}", '0', b'0');
+    println!("{} - {}", '9', b'9');
 }
 
 fn another_function() {
