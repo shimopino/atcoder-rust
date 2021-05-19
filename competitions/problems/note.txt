@@ -4,6 +4,20 @@
     - C問題
     - D問題
 
+- N進数の操作
+  - ABC073
+    - A問題
+
 - 文字列操作
   - code-festival-2016-qualb
     - A問題
+  - code-festival-2017-final
+    - A問題
+
+- 集合
+  - ABC073
+    - C問題
+
+- bit全探索
+  - ABC197
+    - C問題
