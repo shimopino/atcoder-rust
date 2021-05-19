@@ -78,15 +78,33 @@
 参考記事
 
 [累積和を何も考えずに書けるようにする！](https://qiita.com/drken/items/56a6b68edef8fc605821)
+[累積和を使うAtCoderの問題まとめと実装（C++）](https://qiita.com/takuya000885/items/8881ba05d8e6475a1759)
 
 - 累積和
   - [ ] [AOJ 0516 - 最大の和 (JOI 2006 本選 A)](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0516)
-  - [ ] [ABC 087 C - Candies](https://atcoder.jp/contests/abc087/tasks/arc090_a)
+  - [ ] [全国統一プログラミング王決定戦本線 A - Abundant Resources](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a)
+  - [ ] [ABC 037 C- 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)
+  - [ ] [ABC 134 C - Exception Handling](https://atcoder.jp/contests/abc134/tasks/abc134_c)
   - [ ] [ABC 098 C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)
+  - [ ] [Tenka1 Programmer Contest 2019 C - Stones](https://atcoder.jp/contests/tenka1-2019-beginner/tasks/tenka1_2019_c)
   - [ ] [ABC 084 D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)
   - [ ] [ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)
+  - [ ] [ABC 177 C - C - Sum of product of pairs](https://atcoder.jp/contests/abc177/editorial/88)
   - [ ] [AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)
   - [ ] [ABC 005 D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4)
+
+[しゃくとり法 (尺取り法) の解説と、それを用いる問題のまとめ](https://qiita.com/drken/items/ecd1a472d3a0e7db8dce)
+
+- しゃくとり法
+  - [ ] [AOJ Course The Number of Windows](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp)
+  - [ ] [POJ 3061 Subsequence](http://poj.org/problem?id=3061)
+  - [ ] [ABC 032 C 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)
+  - [ ] [ABC 038 C 単調増加](https://beta.atcoder.jp/contests/abc038/tasks/abc038_c)
+  - [ ] [ARC 022 B 細長いお菓子](https://beta.atcoder.jp/contests/arc022/tasks/arc022_2)
+  - [ ] [ABC 098 D Xor Sum 2](https://beta.atcoder.jp/contests/abc098/tasks/arc098_b)
+  - [ ] [ABC 017 D サプリメント](https://beta.atcoder.jp/contests/abc017/tasks/abc017_4)
+  - [ ] [JOI 2013 本選 C バームクーヘン](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0600)
+  - [ ] [JOI 2017 予選 E L番目のK番目の数](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0646)
 
 ## 全探索
 
