@@ -13,10 +13,20 @@
     - A問題
   - code-festival-2017-final
     - A問題
+  - ABC126
+    - A問題
+
+- 配列管理
+  - ABC118
+    - B問題
 
 - 集合
   - ABC073
     - C問題
+
+- 全探索
+  - ABC195
+    - B問題
 
 - bit全探索
   - ABC197
