@@ -289,9 +289,12 @@ EDPC問題集
 問題集
 
 - 深さ優先探索
+  - [ ] [ATC 001 A 深さ優先探索](https://atcoder.jp/contests/atc001/tasks/dfs_a)
   - [ ] [ALDS_11_B - 深さ優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B)
   - [ ] [AOJ 1160 - 島はいくつある？](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
-  - [ ] [AtCoder Beginner Contest 138 D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)
+  - [ ] [ABC 138 D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)
+  - [ ] [ARC 031 B 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2)
+  - [ ] [ARC 037 B バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)
   - [ ] [JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)
 - 幅優先探索
   - [ ] [ALDS_11_C - 幅優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_C&lang=ja)
@@ -300,6 +303,9 @@ EDPC問題集
   - [ ] [JOI 2012 予選 5 - イルミネーション](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)
   - [ ] [AOJ 1166 - 迷図と命ず](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp)
   - [ ] [ABC 088 D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)
+  - [ ] [AGC 033 A - Darker and Darker](https://atcoder.jp/contests/agc033/tasks/agc033_a)
+  - [ ] [ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)
+  - [ ] [AOJ 0503 Cup](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0503)
 
 ## 最短路
 
