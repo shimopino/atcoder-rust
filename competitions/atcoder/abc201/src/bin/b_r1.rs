@@ -7,5 +7,5 @@ fn main() {
     }
 
     st.sort_by_key(|st| st.1);
-    println!("{}", st[st.len() - 2].0);
+    println!("{}", st[n - 2].0);
 }
