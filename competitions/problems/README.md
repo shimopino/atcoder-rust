@@ -284,18 +284,34 @@ EDPC問題集
 
 - [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【前編】](https://qiita.com/drken/items/4a7869c5e304883f539b)
 - [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【後編】](https://qiita.com/drken/items/a803d4fc4a727e02f7ba)
-- [BFS (幅優先探索) 超入門！ 〜 キューを鮮やかに使いこなす 〜](https://qiita.com/drken/items/996d80bcae64649a6580)
+- [深さ優先探索(Depth First Search)の基本](https://algo-logic.info/dfs/)
+- [LeetCode DFS](https://leetcode.com/tag/depth-first-search/)
+- [Pythonでアルゴリズムの勉強~全探索](https://www.tsumar.com/blog/algorithm_whole_search/)
 
 問題集
 
 - 深さ優先探索
   - [ ] [ATC 001 A 深さ優先探索](https://atcoder.jp/contests/atc001/tasks/dfs_a)
   - [ ] [ALDS_11_B - 深さ優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B)
+  - [ ] [AOJ How Many Islands?](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
   - [ ] [AOJ 1160 - 島はいくつある？](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
   - [ ] [ABC 138 D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)
   - [ ] [ARC 031 B 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2)
   - [ ] [ARC 037 B バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)
   - [ ] [JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)
+  - [ ] [ABC 015 C - 高橋くんのバグ探し](http://abc015.contest.atcoder.jp/tasks/abc015_3)
+  - [ ] [ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)
+  - [ ] [ABC 054 C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)
+  - [ ] [ABC 067 D - Fennec VS. Snuke](https://atcoder.jp/contests/abc067/tasks/arc078_b)
+  - [ ] [ABC 126 D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)
+  - [ ] [CODE FESTIVAL 2017 qualB C - 3 Steps](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c)
+
+参考資料
+
+- [BFS (幅優先探索) 超入門！ 〜 キューを鮮やかに使いこなす 〜](https://qiita.com/drken/items/996d80bcae64649a6580)
+
+問題集
+
 - 幅優先探索
   - [ ] [ALDS_11_C - 幅優先探索](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_C&lang=ja)
   - [ ] [ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)
@@ -323,3 +339,5 @@ EDPC問題集
 - [レッドコーダーが教える、競プロ・AtCoder上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa#2-2-%E6%B0%B4%E8%89%B2%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3)
 - [https://github.com/drken1215/book_algorithm_solution](https://github.com/drken1215/book_algorithm_solution)
 - [あのアルゴリズムはどこ？　Pythonを使用してAtCoderの緑色や水色を目指す方に、30以上のアルゴリズムスニペットと100問以上の問題（ACコード付き）を紹介！](https://qiita.com/H20/items/1a066e242815961cd043)
+- [RustCoder ―― AtCoder と Rust で始める競技プログラミング入門](https://zenn.dev/toga/books/rust-atcoder)
+- [アルゴリズムビジュアル大辞典](https://yutaka-watanobe.github.io/star-aida/books/)
