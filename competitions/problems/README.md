@@ -341,3 +341,5 @@ EDPC問題集
 - [あのアルゴリズムはどこ？　Pythonを使用してAtCoderの緑色や水色を目指す方に、30以上のアルゴリズムスニペットと100問以上の問題（ACコード付き）を紹介！](https://qiita.com/H20/items/1a066e242815961cd043)
 - [RustCoder ―― AtCoder と Rust で始める競技プログラミング入門](https://zenn.dev/toga/books/rust-atcoder)
 - [アルゴリズムビジュアル大辞典](https://yutaka-watanobe.github.io/star-aida/books/)
+- [AtCoderの問題を分類しました](https://qiita.com/KoyanagiHitoshi/items/32dc42d8c5ee75339e54#%E7%AC%AC7%E7%AB%A0-%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0%E8%A6%B3%E7%82%B9)
+- [AtCoder 問題カテゴリー分類](https://qiita.com/c-yan/items/56a051d826b873b4f78d)
