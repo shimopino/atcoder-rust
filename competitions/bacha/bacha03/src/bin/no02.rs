@@ -10,7 +10,7 @@ fn main() {
 
 fn dfs(s: String, n: usize) {
     // パスワードの文字列が指定の長さの場合になった場合はカウント
-    if (s.len() == n) {
+    if s.len() == n {
         println!("{}", s);
         return;
     }
