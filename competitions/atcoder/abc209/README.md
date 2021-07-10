@@ -100,29 +100,6 @@ fn main() {
 
 ```
 
-公式解説放送では、偶数の場合に絶対値に変換することで、条件判定を共通化しており、コチラの方法だとよりコードが短くなる。
-
-```rust
-use proconio::input;
-
-fn main() {
-    proconio::input! {
-        mut a: i128,
-        mut b: i128,
-        c: i128,
-    }
-
-    if c % 2 == 0 {
-        a = a.abs();
-        b = b.abs();
-    }
-
-    if a > b { println(">"); return; }
-    if a == b { println("="); return; }
-    if a < b { println(">"); return; }
-}
-```
-
 ## D問題
 
 2部グラフを構築し、始点と終点が偶数に所属しているのか、奇数に所属しているのか判定すればいい。
