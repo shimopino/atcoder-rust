@@ -4,6 +4,14 @@
 
 https://github.com/tanakh/cargo-atcoder
 
+使用するクレート
+
+```toml
+proconio = { version = "=0.3.6", features = ["derive"] }
+```
+
+https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update
+
 ## Resources
 
 - Beginner
