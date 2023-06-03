@@ -1,3 +1,4 @@
+// use num::integer;
 use proconio::input;
 
 fn main() {
@@ -6,6 +7,7 @@ fn main() {
         b: u64,
     }
 
+    // let result = integer::div_ceil(a, b);
     let result = (a + b - 1) / b;
     println!("{}", result);
 }
