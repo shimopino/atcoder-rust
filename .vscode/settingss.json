@@ -1,7 +1,11 @@
 {
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust",
-        "editor.formatOnSave": true,
-        "rust.checkOnSave": true
-    }
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+    "rust.checkOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
 }
