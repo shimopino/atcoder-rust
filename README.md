@@ -4,6 +4,22 @@
 
 https://github.com/tanakh/cargo-atcoder
 
+```bash
+# 新しくコンテストに取り組む場合
+$ cargo atcoder new abc152
+
+$ cd abc152
+
+# 提出
+$ cargo atcoder submit a [--bin]
+
+# ステータスの確認
+$ cargo atcoder status
+
+# テスト
+$ cargo atcoder test a [--custom]
+```
+
 使用するクレート
 
 ```toml
