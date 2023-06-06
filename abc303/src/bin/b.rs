@@ -10,27 +10,15 @@ fn main() {
     }
 
     let mut pairs = HashSet::new();
-    for ai in a {
-        ai.windows(2).for_each(|w| {
-            let (ai1, ai2) = (w[0], w[1]);
-            if ai1 <= ai2 {
-                pairs.insert((ai1, ai2));
-            } else {
-                pairs.insert((ai2, ai1));
-            }
-        })
+    for a in a {
+        // ベクタから指定した要素数分取り出してループで回していく
+        for a in a.windows(2) {
+            let (ai1, ai2) = (a[0] - 1, a[1] - 1);
+            // 大小比較を行う場合は、min/max関数を利用すればいい
+            pairs.insert((ai1.min(ai2), ai1.max(ai2)));
+        }
     }
 
-    let pairs_len = pairs.len();
-    let result = count_combinations(n, 2) - pairs_len;
-
-    println!("{}", result);
-}
-
-fn count_combinations(n: usize, r: usize) -> usize {
-    if r > n {
-        0
-    } else {
-        (1..=r).fold(1, |acc, val| acc * (n - val + 1) / val)
-    }
+    // 全ての組み合わせの数から仲の良い組み合わせの数を減らす
+    println!("{}", (n * (n - 1) / 2) - pairs.len());
 }
