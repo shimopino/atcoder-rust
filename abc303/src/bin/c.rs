@@ -8,14 +8,10 @@ fn main() {
         mut h: isize,
         k: isize,
         s: Chars,
-        xy: [[isize; 2]; m]
+        xy: [(isize, isize); m]
     }
 
-    let mut xy_set = HashSet::new();
-    for xy in xy {
-        xy_set.insert((xy[0], xy[1]));
-    }
-
+    let mut xy_set: HashSet<(isize, isize)> = xy.into_iter().collect();
     let mut point = (0_isize, 0_isize);
     let mut flag = true;
 
