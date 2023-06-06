@@ -35,11 +35,9 @@ fn main() {
             break;
         }
 
-        if h < k {
-            if xy_set.contains(&point) {
-                h = k;
-                xy_set.remove(&point);
-            }
+        if h < k && xy_set.contains(&point) {
+            h = k;
+            xy_set.remove(&point);
         }
     }
 
