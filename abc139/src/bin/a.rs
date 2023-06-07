@@ -6,7 +6,11 @@ fn main() {
         t: Chars,
     }
 
-    let count = s.into_iter().zip(t).filter(|(si, ti)| *si == *ti).count();
+    let count = s
+        .into_iter()
+        .zip(t.into_iter())
+        .filter(|(si, ti)| si == ti)
+        .count();
 
     println!("{}", count);
 }
