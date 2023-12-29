@@ -23,7 +23,7 @@ $ cargo atcoder test a [--custom]
 使用するクレート
 
 ```toml
-proconio = { version = "=0.3.6", features = ["derive"] }
+proconio = { version = "0.4.3", features = ["derive"] }
 ```
 
 https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update

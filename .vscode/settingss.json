@@ -2,7 +2,8 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true,
-    "rust.checkOnSave": true
+    "rust.checkOnSave": true,
+    "rust-analyzer.checkOnSave.Command": "clippy"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
