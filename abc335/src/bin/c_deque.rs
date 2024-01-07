@@ -18,7 +18,7 @@ fn main() {
 
         if mode == '1' {
             input! { direction: char }
-            let &(nx, ny) = &points[0];
+            let &(nx, ny) = points.front().unwrap();
             match direction {
                 'R' => points.push_front((nx + 1, ny)),
                 'L' => points.push_front((nx - 1, ny)),
@@ -28,7 +28,7 @@ fn main() {
             }
         } else {
             input! { p: usize }
-            let &(nx, ny) = &points[p - 1];
+            let &(nx, ny) = points.get(p - 1).unwrap();
             println!("{nx} {ny}");
         }
     }

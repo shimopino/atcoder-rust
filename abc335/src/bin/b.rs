@@ -5,12 +5,11 @@ fn main() {
         n: i32
     }
 
-    for i in 0..=21 {
-        for j in 0..=21 {
-            for k in 0..=21 {
-                let total = i + j + k;
-                if total <= n {
-                    println!("{i} {j} {k}");
+    for x in 0..=21 {
+        for y in 0..=21 {
+            for z in 0..=21 {
+                if x + y + z <= n {
+                    println!("{x} {y} {z}");
                 }
             }
         }
