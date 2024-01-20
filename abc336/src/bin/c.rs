@@ -1,3 +1,5 @@
+use std::collections::VecDeque;
+
 use itertools::Itertools;
 use proconio::input;
 
@@ -15,10 +17,10 @@ fn main() {
         return;
     }
 
-    let mut answer = vec![];
+    let mut answer = VecDeque::new();
     while n > 0 {
-        answer.push(n % 5);
+        answer.push_front(n % 5);
         n /= 5;
     }
-    println!("{}", answer.iter().rev().map(|&i| 2 * i).join(""));
+    println!("{}", answer.iter().map(|&i| 2 * i).join(""));
 }
