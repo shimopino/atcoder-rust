@@ -26,7 +26,10 @@ $ cargo atcoder test a [--custom]
 proconio = { version = "0.4.3", features = ["derive"] }
 ```
 
-https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update
+- 2020年版
+  - https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update
+- 2023年版
+  - https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/Jan-2023-Language-Update-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E6%A1%88
 
 ## Resources
 
